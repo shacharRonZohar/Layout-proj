@@ -3,6 +3,7 @@
         <app-hero></app-hero>
         <features-list></features-list>
         <bottom-content></bottom-content>
+        <!-- Was almost done with it but it fucked up my layout and was out of time -->
         <!-- <reviews-list></reviews-list> -->
         <call-to-action></call-to-action>
     </main>
