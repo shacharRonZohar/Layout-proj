@@ -1,6 +1,5 @@
 <template>
     <section class="reviews-list-container">
-        <!-- {{ reviews }} -->
         <review-preview v-for="review in reviews" :key="review.title" :review="review"></review-preview>
     </section>
 </template>
