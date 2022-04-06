@@ -1,5 +1,6 @@
 <template>
     <footer class="main-footer-container full">
+        <call-to-action />
         <lg-logo />
         <div class="footer">
             <div class="icon location"></div>
@@ -24,11 +25,14 @@
 import lgLogo from './lg-logo.vue'
 import contactUs from './contact-us.vue'
 import footerNav from './footer-nav.vue'
+import callToAction from './call-to-action.vue'
+
 export default {
     components: {
         lgLogo,
         contactUs,
-        footerNav
+        footerNav,
+        callToAction
     }
 }
 </script>
