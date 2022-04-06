@@ -1,8 +1,6 @@
 .app-container {
     min-height: 100vh;
     background-color: #1b2330;
-    background-image: url(../assets/imgs/bg-curvy-desktop.svg);
-    background-repeat: no-repeat;
     @import "../cmps/_app-header.scss";
     @import "../cmps/landing-page.scss";
 }
