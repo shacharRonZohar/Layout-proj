@@ -1,6 +1,6 @@
 <template>
     <section class="features-list-container">
-        <feature-preview v-for="feature in featuresList" :key="feature.title" :feature="feature" />
+        <feature-preview v-for="feature in features" :key="feature.title" :feature="feature" />
     </section>
 </template>
 
@@ -12,7 +12,7 @@ export default {
     },
     data() {
         return {
-            featuresList: [
+            features: [
                 {
                     title: 'Access your files, anywhere',
                     txt: `The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere`
