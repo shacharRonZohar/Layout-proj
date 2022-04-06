@@ -1,0 +1,8 @@
+.main-nav-container {
+    .main-nav {
+        display: flex;
+        .nav-item-container:not(:last-child) {
+            margin-inline-end: 56px;
+        }
+    }
+}

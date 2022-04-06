@@ -1,4 +1,12 @@
 .main-layout {
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    > *:not(.full) {
+        grid-column: 2;
+    }
+    .full {
+        grid-column: span 3;
+    }
 }
 
 // .main-header {
