@@ -1,0 +1,48 @@
+// Flex
+.flex {
+    display: flex !important;
+}
+.inline-flex {
+    display: inline-flex;
+}
+.flex.space-between {
+    justify-content: space-between;
+}
+.flex.align-center {
+    align-items: center;
+}
+
+// List
+.clean-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+// Text
+.vertical-text {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+.tag-text {
+    // color: $clr1;
+    text-transform: uppercase;
+    // @include type(boldCondensed);
+}
+
+.svg-icon {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+}
+
+// Aspect ratios
+
+// .ratio-16-9 { @include aspect-ratio(100, 56); }
+
+// .ratio-square { @include aspect-ratio(100, 100); }
+
+.ratio-card { @include aspect-ratio(150, 95); }
+
+// .ratio-poster { @include aspect-ratio(100, 150); }
