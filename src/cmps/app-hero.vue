@@ -5,6 +5,8 @@
         <p
             class="hero-txt"
         >Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-        <button class="btn btn-get-started">Get Started</button>
+        <button class="btn btn-get-started">
+            <span>Get Started</span>
+        </button>
     </section>
 </template>

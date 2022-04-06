@@ -1,10 +1,10 @@
 <template>
     <main class="landing-page-container">
         <app-hero></app-hero>
-        <features-list></features-list>
+        <!-- <features-list></features-list>
         <bottom-content></bottom-content>
         <reviews-list></reviews-list>
-        <call-to-action></call-to-action>
+        <call-to-action></call-to-action>-->
     </main>
 </template>
 

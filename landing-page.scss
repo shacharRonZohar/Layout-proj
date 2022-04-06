@@ -1,0 +1,6 @@
+.landing-page-container {
+    margin-top: 75.2px;
+    display: flex;
+    // grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+    @import "app-hero.scss";
+}

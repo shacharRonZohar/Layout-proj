@@ -1,0 +1,26 @@
+.hero-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .background-img {
+        width: 720px;
+        height: 534px;
+        background-image: url(../assets/imgs/illustration-intro.png);
+    }
+    .hero-title {
+        margin-top: 36px;
+        text-align: center;
+        max-width: 28ch;
+    }
+    .hero-txt {
+        // font-family: open-sans;
+        margin-top: 46px;
+        text-align: center;
+        max-width: 47ch;
+    }
+    .btn-get-started {
+        margin-top: 35px;
+        @include btn-get-started();
+    }
+}

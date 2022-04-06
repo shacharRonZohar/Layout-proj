@@ -134,5 +134,18 @@
   height: 51.05px;
   width: 176px;
 }
-@mixin btn-action() {
+@mixin btn-get-started() {
+  width: 280px;
+  height: 56px;
+  position: relative;
+  background: linear-gradient(90deg, rgba(99, 225, 217, 1) 0%, rgba(52, 160, 205, 1) 100%);
+  border-radius: 100px;
+  font-family: raleway-b;
+  font-size: rem(16px);
+  > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
