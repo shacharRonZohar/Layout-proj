@@ -1,9 +1,9 @@
 <template>
   <section class="app-container main-layout">
-    <app-header></app-header>
+    <app-header />
     <!-- This will be a router view rendering cmps dynamically in a proper app -->
-    <landing-page></landing-page>
-    <app-footer></app-footer>
+    <landing-page />
+    <app-footer />
   </section>
 </template>
 

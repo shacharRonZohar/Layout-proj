@@ -11,7 +11,10 @@
             <p
                 class="bottom-txt"
             >Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
-            <a href="#">See how Fylo works</a>
+            <a href="#">
+                See how Fylo works
+                <div class="icon"></div>
+            </a>
         </div>
     </section>
 </template>

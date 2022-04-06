@@ -24,5 +24,23 @@
         .bottom-txt {
             margin-top: 19px;
         }
+        a {
+            margin-top: 27px;
+            color: #62e0d9;
+            align-self: flex-start;
+            border-bottom: 1px solid;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .icon {
+                margin-left: 16px;
+                margin-top: 2px;
+                height: 12px;
+                width: 12px;
+                background-size: contain;
+                background-image: url(../assets/imgs/icon-arrow.svg);
+            }
+        }
     }
 }
