@@ -1,0 +1,32 @@
+.reviews-list-container {
+    margin-top: 179px;
+    margin-left: 193.8px;
+    margin-right: 193.8px;
+    display: flex;
+    // flex-direction: column;
+    gap: 40px;
+    .review-preview {
+        height: 200px;
+        width: 360px;
+        background-color: #202a3c;
+        padding: 40px 25px 0 25px;
+        .txt {
+            max-width: 37ch;
+        }
+        .reviewer {
+            margin-top: 26px;
+            display: flex;
+            gap: 8px;
+            .avatar {
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                background-size: contain;
+            }
+            .details {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

@@ -1,6 +1,8 @@
 <template>
     <section class="bottom-content-container full">
-        <div class="background-image img"></div>
+        <div class="img-container">
+            <img src="../assets/imgs/illustration-stay-productive.png" />
+        </div>
         <div class="content">
             <h2 class="title">Stay productive, wherever you are</h2>
             <p

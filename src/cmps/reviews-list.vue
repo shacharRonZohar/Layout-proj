@@ -20,7 +20,7 @@ export default {
                         name: 'Satish Patel',
                         position: 'Founder & CEO',
                         company: 'Huddle',
-                        img: ''
+                        img: './src/assets/imgs/profile-1.jpg'
                     }
                 },
                 {
@@ -29,7 +29,7 @@ export default {
                         name: 'Bruce McKenzie',
                         position: 'Founder & CEO',
                         company: 'Huddle',
-                        img: ''
+                        img: './src/assets/imgs/profile-2.jpg'
                     }
                 },
                 {
@@ -38,7 +38,7 @@ export default {
                         name: 'Ive Boyd',
                         position: 'Founder & CEO',
                         company: 'Huddle',
-                        img: ''
+                        img: './src/assets/imgs/profile-3.jpg'
                     }
                 }
             ]

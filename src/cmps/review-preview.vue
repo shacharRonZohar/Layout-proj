@@ -2,9 +2,14 @@
     <article class="review-preview">
         <p class="txt">{{ review.txt }}</p>
         <div class="reviewer">
-            <div class="avatar" :Style="{ backgroundImage: `url(${review.reviewer.img})` }"></div>
-            <span class="name">{{ review.reviewer.name }}</span>
-            <small class="position">{{ review.reviewer.position }} {{ review.reviewer.company }}</small>
+            <div class="avatar" :style="{ backgroundImage: `url(${review.reviewer.img})` }"></div>
+            <div class="details">
+                <span class="name">{{ review.reviewer.name }}</span>
+
+                <span
+                    class="position"
+                >&nbsp {{ review.reviewer.position }}, {{ review.reviewer.company }}</span>
+            </div>
         </div>
     </article>
 </template>

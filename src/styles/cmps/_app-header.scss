@@ -3,8 +3,5 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 73.7px;
-    .logo-container.lg {
-        @include logo-lg();
-    }
     @import "main-nav.scss";
 }

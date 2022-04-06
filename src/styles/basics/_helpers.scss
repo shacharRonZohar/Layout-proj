@@ -43,6 +43,12 @@
 
 // .ratio-square { @include aspect-ratio(100, 100); }
 
-.ratio-card { @include aspect-ratio(150, 95); }
+.ratio-card {
+    @include aspect-ratio(150, 95);
+}
 
 // .ratio-poster { @include aspect-ratio(100, 150); }
+
+.logo-container.lg {
+    @include logo-lg();
+}
