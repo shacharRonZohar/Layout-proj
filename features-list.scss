@@ -1,0 +1,27 @@
+.features-list-container {
+    margin-top: 158px;
+    display: grid;
+    max-width: 880px;
+    height: 506px;
+    column-gap: 147px;
+    row-gap: 80px;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    .feature-preview-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // gap: 19.3px;
+        .title {
+            margin-top: 19.3px;
+        }
+        .txt {
+            margin-top: 5px;
+            text-align: center;
+        }
+        .img-container {
+            height: 104px;
+            width: 104px;
+        }
+    }
+}
