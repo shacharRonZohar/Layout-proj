@@ -1,7 +1,8 @@
 .landing-page-container {
     margin-top: 75.2px;
     display: flex;
-    flex-direction: column; // grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+    flex-direction: column;
     @import "app-hero.scss";
     @import "features-list.scss";
+    @import "bottom-content.scss";
 }

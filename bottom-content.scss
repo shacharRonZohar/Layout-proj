@@ -1,0 +1,29 @@
+.bottom-content-container {
+    margin-top: 138.4px;
+    display: flex;
+    gap: 57.2px;
+    margin-left: auto;
+    margin-right: auto;
+    .background-image {
+        width: 614.76px;
+        height: 463.63px;
+        background-image: url(../assets/imgs/illustration-stay-productive.png);
+    }
+    .content {
+        max-width: 563px;
+        max-height: 282px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: rem(16px);
+        .title {
+            max-width: 20ch;
+        }
+        .upper-txt {
+            margin-top: 22px;
+        }
+        .bottom-txt {
+            margin-top: 19px;
+        }
+    }
+}
