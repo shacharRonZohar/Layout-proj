@@ -1,6 +1,11 @@
 <template>
-    <section class="reviews-list-container">
-        <review-preview v-for="review in reviews" :key="review.title" :review="review"></review-preview>
+    <section class="reviews-container">
+        <div class="reviews-list-container">
+            <div class="quotes-icon"></div>
+            <div class="reviews">
+                <review-preview v-for="review in reviews" :key="review.title" :review="review"></review-preview>
+            </div>
+        </div>
     </section>
 </template>
 

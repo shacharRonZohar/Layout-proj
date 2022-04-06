@@ -1,6 +1,8 @@
 <template>
-    <section class="features-list-container">
-        <feature-preview v-for="feature in features" :key="feature.title" :feature="feature" />
+    <section class="features-container">
+        <div class="features-list-container">
+            <feature-preview v-for="feature in features" :key="feature.title" :feature="feature" />
+        </div>
     </section>
 </template>
 
