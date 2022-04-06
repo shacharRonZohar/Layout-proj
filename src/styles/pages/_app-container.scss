@@ -1,6 +1,17 @@
 .app-container {
     min-height: 100vh;
     background-color: #1b2330;
+    // background-image: url(/src/assets/imgs/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 87rem;
+    background-position-x: -18vw;
+    background-position-y: 112vh;
+    .lower-background {
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        background-color: #181f2b;
+    }
     @import "../cmps/_app-header.scss";
     @import "../cmps/landing-page.scss";
 }
