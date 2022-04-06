@@ -1,5 +1,5 @@
 <template>
-    <main class="landing-page-container">
+    <main class="landing-page-container full">
         <app-hero />
         <features-list />
         <bottom-content />

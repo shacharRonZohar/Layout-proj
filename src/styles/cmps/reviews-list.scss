@@ -1,8 +1,9 @@
 .reviews-list-container {
-    margin: 179px auto 0 auto;
+    padding: 0 140px 360px 140px;
     display: flex;
-    // flex-direction: column;
+    justify-content: space-between;
     gap: 40px;
+    background-color: #181f2b;
     .review-preview {
         height: 200px;
         width: 360px;

@@ -1,7 +1,6 @@
 .main-layout {
     display: grid;
     grid-template-columns: 80px 1fr 80px;
-    // grid-template-rows: repeat(auto-fill, 100px);
     > *:not(.full) {
         grid-column: 2;
     }

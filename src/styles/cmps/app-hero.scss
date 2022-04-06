@@ -1,13 +1,15 @@
 .hero-container {
-    margin: auto;
+    padding: 0 360px 158px 360px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 158px;
-    .background-img {
-        width: 720px;
+    background-image: url(/src/assets/imgs/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: 102%;
+    .img-container {
         height: 534px;
-        background-image: url(../assets/imgs/illustration-intro.png);
     }
     .hero-title {
         margin-top: 36px;

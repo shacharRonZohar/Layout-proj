@@ -1,6 +1,8 @@
 <template>
     <section class="hero-container">
-        <div class="background-img img"></div>
+        <div class="img-container">
+            <img src="../assets/imgs/illustration-intro.png" />
+        </div>
         <h2 class="hero-title">All your files in one secure location, accessible anywhere</h2>
         <p
             class="hero-txt"

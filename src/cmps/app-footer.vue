@@ -1,5 +1,5 @@
 <template>
-    <footer class="main-footer-container">
+    <footer class="main-footer-container full">
         <lg-logo />
         <div class="footer">
             <div class="icon location"></div>
