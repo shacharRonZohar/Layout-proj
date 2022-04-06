@@ -5,14 +5,19 @@
     .features-list-container {
         padding-bottom: 138.4px;
         display: grid;
-        // width: 1;
-        margin: 0 auto;
-        // width: 100%;
-        max-width: 880px;
-        height: 506px;
+        margin: 0 28px;
         column-gap: 147px;
         row-gap: 80px;
-        grid-template: 1fr 1fr / 1fr 1fr;
+        max-width: 320px;
+        @media (min-width: 450px) {
+            // The margin auto here stops being auto at around 600px, couldnt figure out why in time
+            margin: 0 auto;
+        }
+        @media (min-width: 1100px) {
+            max-width: 880px;
+            height: 506px;
+            grid-template: 1fr 1fr / 1fr 1fr;
+        }
         .feature-preview-container {
             display: flex;
             flex-direction: column;
@@ -25,6 +30,7 @@
             .txt {
                 margin-top: 5px;
                 text-align: center;
+                width: 36ch;
             }
             .img-container {
                 height: 104px;

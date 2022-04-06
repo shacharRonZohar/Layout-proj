@@ -1,45 +1,57 @@
-.bottom-content-container {
-    display: flex;
-    gap: 57.2px;
-    padding: 0 100px 179px 100px;
-    align-items: center;
+.bottom-content-outer-container {
+    // padding: 0 auto;
     background-color: #181f2b;
-    .img-container {
-        width: 614.76px;
-        height: 463.63px;
-    }
-    .content {
-        max-width: 563px;
-        max-height: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 179px;
+    .bottom-content-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        font-size: rem(16px);
-        .title {
-            max-width: 20ch;
+        gap: 57.2px;
+        align-items: center;
+        max-width: 320px;
+        @media (min-width: 1000px) {
+            flex-direction: row;
+            max-width: 1237px;
         }
-        .upper-txt {
-            margin-top: 22px;
+        .img-container {
+            width: 614.76px;
+            height: 463.63px;
         }
-        .bottom-txt {
-            margin-top: 19px;
-        }
-        a {
-            margin-top: 27px;
-            color: #62e0d9;
-            align-self: flex-start;
-            border-bottom: 1px solid;
-            padding-bottom: 5px;
+        .content {
+            max-width: 563px;
+            max-height: 282px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .icon {
-                margin-left: 16px;
-                margin-top: 2px;
-                height: 12px;
-                width: 12px;
-                background-size: contain;
-                background-image: url(../assets/imgs/icon-arrow.svg);
+            flex-direction: column;
+            justify-content: center;
+            font-size: rem(16px);
+            .title {
+                max-width: 20ch;
+            }
+            .upper-txt {
+                margin-top: 22px;
+            }
+            .bottom-txt {
+                margin-top: 19px;
+            }
+            a {
+                margin-top: 27px;
+                color: #62e0d9;
+                align-self: flex-start;
+                border-bottom: 1px solid;
+                padding-bottom: 5px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .icon {
+                    margin-left: 16px;
+                    margin-top: 2px;
+                    height: 12px;
+                    width: 12px;
+                    background-size: contain;
+                    background-image: url(../assets/imgs/icon-arrow.svg);
+                }
             }
         }
     }
